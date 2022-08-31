@@ -1,5 +1,8 @@
 package sprint1.AbstractFinal;
 
+// kommentar
+
+
 public class Pepparkaka extends sprint1.AbstractFinal.Godsak {
 
     private String form;
