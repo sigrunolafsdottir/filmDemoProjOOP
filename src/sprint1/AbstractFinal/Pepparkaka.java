@@ -3,7 +3,8 @@ package sprint1.AbstractFinal;
 // kommentar
 
 
-public class Pepparkaka extends sprint1.AbstractFinal.Godsak {
+public class Pepparkaka extends
+        Godsak {
 
     private String form;
     private boolean gräddningsgrad;
@@ -18,6 +19,13 @@ public class Pepparkaka extends sprint1.AbstractFinal.Godsak {
         this.gräddningsgrad=gräddningsgrad;
     }
 
+    public boolean getGräddningsgrad(){
+        return gräddningsgrad;
+    }
+
+    public void grädda(){
+        gräddningsgrad = true;
+    }
 
     public String toString(){
         return "jag är en pepparkaka";
