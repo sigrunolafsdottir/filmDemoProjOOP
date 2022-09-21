@@ -14,4 +14,7 @@ public class testGitFile {
 
     //testbranch changes
     //testbranch changes
+
+    //fast forward changes
+    //fast forward changes
 }
