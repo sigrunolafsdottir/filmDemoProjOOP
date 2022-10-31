@@ -20,6 +20,7 @@ public class PathDemo {
         try(BufferedReader br = Files.newBufferedReader(song);
             BufferedWriter bw = Files.newBufferedWriter(p2)){
 
+
             String temp;
 
             while((temp = br.readLine()) != null){
